@@ -45,6 +45,7 @@ public class ConnectServer {
     public void getAccess(String server) {
         try (
                 FileInputStream fis = new FileInputStream("./src/resources/config.properties")
+                //needs to pass a test
                 //FileInputStream fis = new FileInputStream("./Music Advisor/task/src/resources/config.properties")
         ) {
             if ("".equals(server)) {
